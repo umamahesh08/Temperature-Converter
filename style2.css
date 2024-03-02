@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .input-container,
+  .output-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input,
+  .output-container select,
+  #convertButton {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .input-container input,
+  .output-container select {
+    width: calc(70% - 10px);
+    margin-right: 10px;
+  }
+  
+  .unit-select {
+    background-color: #eee;
+    color: #333;
+  }
+  
+  #convertButton {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #convertButton:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    font-weight: bold;
+    font-size: 20px;
+  }
